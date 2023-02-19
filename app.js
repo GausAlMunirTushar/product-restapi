@@ -8,7 +8,7 @@ const productsRoute = require('./routes/productsRoute');
 // });
 
 // middleware to set routes
-app.use('/api/products', productsRoute);
+app.use('/', productsRoute);
 
 // connect to database
 connectDB();
