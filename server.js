@@ -4,6 +4,7 @@ const PORT = process.env.PORT || 5000;
 
 const server = async () => {
     try {
+        
         await app.listen(PORT, () => {
         console.log(`Server is running on http://localhost:${PORT}`);
         });

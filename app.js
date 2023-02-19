@@ -1,4 +1,5 @@
 const express = require('express');
+const connectDB = require('./config/connectDB');
 const app = express();
 const productsRoute = require('./routes/productsRoute');
 
@@ -8,5 +9,8 @@ const productsRoute = require('./routes/productsRoute');
 
 // middleware to set routes
 app.use('/api/products', productsRoute);
+
+// connect to database
+connectDB();
 
 module.exports = app;

@@ -1,0 +1,44 @@
+[
+    {
+        "name": "HP i5 8GB 1TB",
+        "price": 6000,
+        "description": "i5 8GB 1TB",
+        "feature": true,
+        "company": "hp"
+    },
+    {
+        "name": "Iphone 13",
+        "price": 13000,
+        "description": "Iphone 13 32GB",
+        "feature": true,
+        "company": "apple"
+    },
+    {
+        "name": "Iphone 12",
+        "price": 1000,
+        "description": "Iphone 12 16GB",
+        "feature": true,
+        "company": "apple"
+    },
+    {
+        "name": "Iphone 10",
+        "price": 1000,
+        "description": "Iphone 10 16GB",
+        "feature": true,
+        "company": "apple"
+    },
+    {
+        "name": "Iphone 16",
+        "price": 11000,
+        "description": "Iphone 16 16GB",
+        "feature": true,
+        "company": "apple"
+    },
+    {
+        "name": "Iphone 14",
+        "price": 10000,
+        "description": "Iphone 15 16GB",
+        "feature": true,
+        "company": "apple"
+    }
+]
